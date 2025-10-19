@@ -12,7 +12,7 @@ const FeaturedActivities = () => {
       price: '$120',
       participants: 8,
       maxParticipants: 12,
-      image: '/assets/images/activity-1.jpg',
+      image: '/sgar/assets/images/activity-1.jpg',
       difficulty: '中级'
     },
     {
@@ -24,7 +24,7 @@ const FeaturedActivities = () => {
       price: '$90',
       participants: 5,
       maxParticipants: 10,
-      image: '/assets/images/activity-2.jpg',
+      image: '/sgar/assets/images/activity-2.jpg',
       difficulty: '初级'
     },
     {
@@ -36,7 +36,7 @@ const FeaturedActivities = () => {
       price: '$150',
       participants: 12,
       maxParticipants: 15,
-      image: '/assets/images/activity-3.jpg',
+      image: '/sgar/assets/images/activity-3.jpg',
       difficulty: '高级'
     },
     {
@@ -48,7 +48,7 @@ const FeaturedActivities = () => {
       price: '$180',
       participants: 6,
       maxParticipants: 8,
-      image: '/assets/images/activity-4.jpg',
+      image: '/sgar/assets/images/activity-4.jpg',
       difficulty: '高级'
     }
   ];
