@@ -12,7 +12,7 @@ const Navigation = () => {
           <img src="/sgar/assets/images/new-logo.png" alt="SGAR" className="logo-image" />
         </div>
 
-        {/* 导航菜单 */}
+        {/* 导航菜单 - 桌面端显示 */}
         <div className="nav-menu">
           {navItems.map((item, index) => (
             <button key={index} className="nav-item">
