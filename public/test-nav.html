@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0B0F1A;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .test-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+            padding: 8px 0;
+            background: rgba(0, 0, 0, 0.9);
+            border-bottom: 1px solid rgba(102, 204, 255, 0.5);
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        .test-content {
+            padding-top: 100px;
+            text-align: center;
+            padding: 100px 20px 20px;
+        }
+        .test-logo {
+            color: #66CCFF;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .test-btn {
+            background: linear-gradient(45deg, #66CCFF, #A86CFF);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="test-nav">
+        <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 0 16px;">
+            <div class="test-logo">SGAR</div>
+            <button class="test-btn">登录</button>
+        </div>
+    </nav>
+    
+    <div class="test-content">
+        <h1>导航栏测试页面</h1>
+        <p>如果您能看到顶部的SGAR导航栏，说明导航栏正常工作。</p>
+        <p>在手机上，导航栏应该固定在顶部并始终可见。</p>
+    </div>
+</body>
+</html>
