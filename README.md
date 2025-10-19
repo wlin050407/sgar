@@ -2,6 +2,8 @@
 
 一个基于React的赛博朋克风格移动端应用，结合AR体感和户外社交的竞技场平台。
 
+🌐 **在线演示**: [https://wlin050407.github.io/sgar](https://wlin050407.github.io/sgar)
+
 ## 项目特色
 
 - **赛博朋克设计风格** - HUD圆环、霓虹色彩、玻璃拟态效果
@@ -67,6 +69,25 @@ npm start
 ```
 
 3. 在浏览器中打开 [http://localhost:3000](http://localhost:3000)
+
+## 部署
+
+### 自动部署 (GitHub Pages)
+项目已配置GitHub Actions自动部署到GitHub Pages：
+
+- 每次推送到 `main` 分支时自动构建和部署
+- 部署地址: https://wlin050407.github.io/sgar
+- 构建状态可在 [Actions](https://github.com/wlin050407/sgar/actions) 页面查看
+
+### 手动部署
+```bash
+# 构建项目
+npm run build
+
+# 部署到GitHub Pages
+npm install -g gh-pages
+gh-pages -d build
+```
 
 ## 功能特性
 
