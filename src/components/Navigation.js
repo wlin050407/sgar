@@ -9,7 +9,7 @@ const Navigation = () => {
       <div className="nav-container">
         {/* Logo */}
         <div className="nav-logo">
-          <img src="/new-logo.png" alt="SGAR" className="logo-image" />
+          <img src="/assets/images/new-logo.png" alt="SGAR" className="logo-image" />
         </div>
 
         {/* 导航菜单 */}

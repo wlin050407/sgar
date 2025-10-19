@@ -12,7 +12,7 @@ const FeaturedActivities = () => {
       price: '$120',
       participants: 8,
       maxParticipants: 12,
-      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center',
+      image: '/assets/images/activity-1.jpg',
       difficulty: '中级'
     },
     {
@@ -24,7 +24,7 @@ const FeaturedActivities = () => {
       price: '$90',
       participants: 5,
       maxParticipants: 10,
-      image: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=300&h=200&fit=crop&crop=center',
+      image: '/assets/images/activity-2.jpg',
       difficulty: '初级'
     },
     {
@@ -36,7 +36,7 @@ const FeaturedActivities = () => {
       price: '$150',
       participants: 12,
       maxParticipants: 15,
-      image: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=300&h=200&fit=crop&crop=center',
+      image: '/assets/images/activity-3.jpg',
       difficulty: '高级'
     },
     {
@@ -48,7 +48,7 @@ const FeaturedActivities = () => {
       price: '$180',
       participants: 6,
       maxParticipants: 8,
-      image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=300&h=200&fit=crop&crop=center',
+      image: '/assets/images/activity-4.jpg',
       difficulty: '高级'
     }
   ];

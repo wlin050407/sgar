@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="hero-container">
         <div className="hero-content">
           <div className="hero-logo">
-            <img src="/new-logo.png" alt="SGAR" className="hero-logo-image" />
+            <img src="/assets/images/new-logo.png" alt="SGAR" className="hero-logo-image" />
           </div>
           <h1 className="hero-title">
             <span className="title-main">未来竞技场</span>
