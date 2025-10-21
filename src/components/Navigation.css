@@ -73,70 +73,6 @@
   gap: 16px;
 }
 
-/* 汉堡按钮（默认隐藏，仅移动端显示） */
-.hamburger-btn {
-  display: none;
-  width: 44px;
-  height: 44px;
-  border: 1px solid rgba(102, 204, 255, 0.2);
-  background: rgba(255, 255, 255, 0.04);
-  border-radius: 10px;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.hamburger-line {
-  display: block;
-  width: 20px;
-  height: 2px;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 2px;
-}
-
-.hamburger-btn.active {
-  border-color: rgba(102, 204, 255, 0.4);
-  background: rgba(255, 255, 255, 0.06);
-}
-
-/* 移动端下拉菜单容器（默认隐藏） */
-.mobile-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.9);
-  border-bottom: 1px solid rgba(102, 204, 255, 0.2);
-  backdrop-filter: blur(20px);
-  transform: translateY(-8px);
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transition: all 0.2s ease;
-}
-
-.mobile-menu.open {
-  transform: translateY(0);
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.mobile-menu-inner {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 12px 16px 16px 16px;
-}
-
-.mobile-items {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
 .gradient-btn {
   background: linear-gradient(45deg, #66CCFF, #A86CFF);
   border: none;
@@ -174,7 +110,7 @@
 /* 移动端适配 */
 @media (max-width: 768px) {
   .navigation {
-    padding: calc(8px + env(safe-area-inset-top)) 0 8px 0;
+    padding: 8px 0;
     background: rgba(0, 0, 0, 0.8);
     border-bottom: 1px solid rgba(102, 204, 255, 0.3);
   }
@@ -187,26 +123,22 @@
   }
 
   .nav-menu {
-    display: none; /* 移动端隐藏导航菜单，使用下拉菜单 */
+    display: none; /* 移动端隐藏导航菜单，可以后续添加汉堡菜单 */
   }
 
   .nav-logo .logo-image {
     height: 36px;
   }
 
-  /* 桌面端登录按钮在移动端隐藏，移动下拉中显示 */
-  .nav-actions {
-    display: none;
-  }
-
-  .hamburger-btn {
-    display: inline-flex;
+  .gradient-btn {
+    padding: 10px 20px;
+    font-size: 13px;
   }
 }
 
 @media (max-width: 480px) {
   .navigation {
-    padding: calc(6px + env(safe-area-inset-top)) 0 6px 0;
+    padding: 6px 0;
     background: rgba(0, 0, 0, 0.9);
   }
 
@@ -216,5 +148,10 @@
 
   .nav-logo .logo-image {
     height: 32px;
+  }
+
+  .gradient-btn {
+    padding: 8px 16px;
+    font-size: 12px;
   }
 }
